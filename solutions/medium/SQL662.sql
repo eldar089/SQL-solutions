@@ -8,8 +8,8 @@
 This table contains the ID of the user who sent the request, the ID of the user who received 
 the request, and the date when the request was accepted.
 
-Task: Write a solution to find the people who have the most friends and the most friends number.
-The test cases are generated so that only one person has the most friends.
+Task: Find the person with the most friends and output their name (or ID) along with the number of friends.
+It is guaranteed that exactly one person has the maximum number of friends in the test data.
 */
 
 WITH accepter AS(
